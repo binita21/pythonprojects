@@ -1,5 +1,7 @@
 no_of_students=int(input("Enter no of students\n"))
 subjects=['Maths','Science','Social','English','Computer']
+print(subjects)
+
 # full_marks, pass_marks = 75,35
 Total_marks_sub = 75*len(subjects)
 
@@ -35,7 +37,7 @@ def student_marks_analyzer():
             elif percentage >= 60:
                 print("Congratulations! You got B grade.")
             elif percentage >= 50:
-                print("You got C grade and just passed")
+                print("You got C grade (i.e.just passed).")
             else:
                 print("You failed (NG)!")
         calc_grade()
